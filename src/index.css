@@ -4,7 +4,7 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: #213547;
+  color: #ffffff;
   background-color: #5cacde;
 
   font-synthesis: none;
@@ -23,11 +23,15 @@ a:hover {
 }
 
 body {
-  margin: 2em;
+  margin: 0;
+  width: 100vw;
+  min-height: 100vh;
   display: flex;
-  place-items: center;
-  width: calc(100vw - 4em);
-  height: calc(100vh - 4em);
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: url('./assets/photorealistic-style-clouds-stairs.jpg');
+  background-size: cover;
 }
 
 h1 {
@@ -55,7 +59,12 @@ button:focus-visible {
 }
 
 img {
-  width: 100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(100% - 4em);
+  border: 2px solid white;
 }
 
 .footer {
