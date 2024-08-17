@@ -28,7 +28,7 @@ function Footer() {
   }
 
   const openTwitter = () => {
-    window.open('https://x.com/', '_blank');
+    window.open('https://x.com/Holyshit_cto', '_blank');
   }
 
   const openTelegram = () => {
