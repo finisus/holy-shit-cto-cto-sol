@@ -2,7 +2,6 @@ import Footer from './footer.jsx';
 import pfpBanner from './assets/pfp.png';
 
 function App() {
-
   return (
     <>
       <img src={pfpBanner} alt='Holy Shit!' />
