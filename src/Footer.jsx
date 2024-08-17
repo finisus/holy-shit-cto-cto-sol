@@ -28,11 +28,11 @@ function Footer() {
   }
 
   const openTwitter = () => {
-    window.open('https://x.com/Holyshit_cto', '_blank');
+    window.open('https://x.com/', '_blank');
   }
 
   const openTelegram = () => {
-    window.open('https://t.me/+XLCB65kYXTQ2MmU0', '_blank');
+    window.open('https://t.me/holyshitrealcto', '_blank');
   }
 
   const openChart = () => {
