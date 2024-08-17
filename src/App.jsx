@@ -1,4 +1,4 @@
-import Footer from './footer.jsx';
+import Footer from './Footer.jsx';
 import pfpBanner from './assets/pfp.png';
 
 function App() {
